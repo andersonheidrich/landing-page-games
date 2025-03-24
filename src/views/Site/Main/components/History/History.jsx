@@ -1,0 +1,25 @@
+import * as Style from "./History.styles";
+
+const History = () => {
+  return (
+    <Style.Container>
+      <Style.Content>
+        <Style.Text>
+          Tudo começou no início dos anos 1990, com meu primeiro console: um
+          Dynavision 3! Pra ser sincero, não me lembro muito bem dos jogos. Logo
+          após, veio o SNES (Super Nintendo), que me marcou muito com seus
+          diversos jogos que se tornaram clássicos, como Chrono Trigger, The
+          Legend of Zelda: A Link to the Past, Super Mario World, Donkey Kong,
+          International Superstar Soccer e todas as suas versões brasileiras
+          (piratas), os muitos jogos estilo beat 'em up (os famosos "briga de
+          rua"). Ao final da década de 90, ganhei meu primeiro computador e
+          através dele, tive meus primeiros contatos com dois gêneros de jogos
+          que são os meus favoritos até hoje: Manager e MMORPG.
+        </Style.Text>
+      </Style.Content>
+      <div id="consoles" />
+    </Style.Container>
+  );
+};
+
+export default History;
