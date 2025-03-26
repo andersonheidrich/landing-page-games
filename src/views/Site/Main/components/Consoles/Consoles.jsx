@@ -1,4 +1,3 @@
-import { useState } from "react";
 import * as Style from "./Consoles.styles";
 import Slider from "../../../../../components/Slider/Slider";
 
@@ -10,7 +9,7 @@ import XboxOne from "../../../../../images/consoles/xone.png";
 import PC from "../../../../../images/consoles/pc.png";
 
 const Consoles = () => {
-  const [data] = useState([
+  const data = [
     {
       id: "1",
       title: "SNES",
@@ -47,10 +46,11 @@ const Consoles = () => {
       image: PC,
       text: "Desta maneira, o fenômeno da Internet é uma das consequências das diversas correntes de pensamento.",
     },
-  ]);
+  ];
 
   return (
     <Style.Container>
+      <h1 className="title">CONSOLES</h1>
       <Slider data={data} />
       <div id="franchises" />
     </Style.Container>

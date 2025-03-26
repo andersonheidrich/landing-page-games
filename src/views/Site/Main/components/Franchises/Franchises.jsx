@@ -7,48 +7,75 @@ import DOS from "../../../../../images/franchises/dos.png";
 import FM from "../../../../../images/franchises/fm.png";
 import FIFA from "../../../../../images/franchises/fifa.png";
 import DonkeyKong from "../../../../../images/franchises/donkeykong.png";
+import SuperMario from "../../../../../images/franchises/supermario.png";
+import WOW from "../../../../../images/franchises/wow.png";
 
 const Franchises = () => {
   return (
     <Style.Container>
+      <h1 className="title">FRANQUIAS</h1>
       <Style.Row>
         <div>
-          <a href="https://www.pokemon.com/">
+          <a href="https://www.pokemon.com/" target="_blank">
             <img src={Pokemon} />
           </a>
         </div>
         <div>
-          <a href="https://dragonquest.square-enix-games.com/">
+          <a href="https://dragonquest.square-enix-games.com/" target="_blank">
             <img src={DragonQuest} />
           </a>
         </div>
         <div>
-          <a href="https://civilization.2k.com/">
+          <a href="https://civilization.2k.com/" target="_blank">
             <img src={Civilization} />
           </a>
         </div>
       </Style.Row>
       <Style.Row>
         <div>
-          <a href="http://www.divinityoriginalsin.com/">
+          <a href="http://www.divinityoriginalsin.com/" target="_blank">
             <img src={DOS} />
           </a>
         </div>
         <div>
-          <a href="https://www.footballmanager.com/">
+          <a href="https://www.footballmanager.com/" target="_blank">
             <img src={FM} />
           </a>
         </div>
         <div>
-          <a href="https://www.ea.com/pt-br/games/ea-sports-fc/">
+          <a
+            href="https://www.ea.com/pt-br/games/ea-sports-fc/"
+            target="_blank"
+          >
             <img src={FIFA} />
           </a>
         </div>
       </Style.Row>
       <Style.Row>
         <div>
-          <a href="https://www.ea.com/pt-br/games/ea-sports-fc/">
+          <a
+            href="https://donkey-kong-country.fandom.com/pt-br/wiki/Donkey_Kong_Country"
+            target="_blank"
+          >
             <img src={DonkeyKong} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.nintendo.com/pt-pt/Jogos/Portal-Nintendo/Portal-Super-Mario/Portal-Super-Mario-627604.html?srsltid=AfmBOopJWE5QbqmBNyxflZAYecPrj3pQqiHWXzwWN40UGHkUlWx1bBX7"
+            target="_blank"
+            style={{ backgroundColor: "white" }}
+          >
+            <img src={SuperMario} />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://worldofwarcraft.blizzard.com/pt-br/"
+            target="_blank"
+            style={{ backgroundColor: "black" }}
+          >
+            <img src={WOW} />
           </a>
         </div>
       </Style.Row>

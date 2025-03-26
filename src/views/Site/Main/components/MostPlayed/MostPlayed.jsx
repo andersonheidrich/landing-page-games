@@ -3,6 +3,7 @@ import * as Style from "./MostPlayed.styles";
 const MostPlayed = () => {
   return (
     <Style.Container>
+      <h1 className="title">MAIS JOGADOS</h1>
       {/* <div>
         <a href="https://www.pokemon.com/">
           <img src={Pokemon} />

@@ -37,6 +37,11 @@ export const SlideStyle = styled(SwiperSlide)`
   .slide-text {
     margin: 0 60px 0 16px;
     width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #1c1c24;
+    color: #d5c7b9;
+    font-weight: bold;
   }
 
   .slide-image {

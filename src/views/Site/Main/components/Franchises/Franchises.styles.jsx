@@ -6,8 +6,10 @@ export const Container = styled.div`
   margin-top: 100px;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  /* background-color: black; */
+
+  .title {
+    margin-bottom: 32px;
+  }
 `;
 
 export const Row = styled.div`

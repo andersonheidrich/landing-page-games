@@ -3,6 +3,7 @@ import * as Style from "./History.styles";
 const History = () => {
   return (
     <Style.Container>
+      <h1 className="title">HISTÓRIA</h1>
       <Style.Content>
         <Style.Text>
           Tudo começou no início dos anos 1990, com meu primeiro console: um
