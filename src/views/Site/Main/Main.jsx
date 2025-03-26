@@ -1,5 +1,4 @@
 import {
-  About,
   Consoles,
   Franchises,
   History,
@@ -16,7 +15,6 @@ const Main = () => {
       <Franchises />
       <Online />
       <MostPlayed />
-      <About />
     </Style.Container>
   );
 };

@@ -1,9 +1,9 @@
 import * as Style from "./Online.styles";
 
-import Tibia from "../../../../../images/online/tibia.png";
-import Ragnarok from "../../../../../images/online/ragnarok.png";
-import FIFA from "../../../../../images/online/fifa.png";
-import WOW from "../../../../../images/online/wow.png";
+import Tibia from "../../../../../images/games/tibia.png";
+import Ragnarok from "../../../../../images/games/ragnarok.png";
+import FIFA from "../../../../../images/games/fifa.png";
+import WOW from "../../../../../images/games/wow.png";
 
 const Online = () => {
   return (
@@ -24,6 +24,7 @@ const Online = () => {
           <a
             href="https://www.ea.com/pt-br/games/ea-sports-fc/"
             target="_blank"
+            style={{ backgroundColor: "white" }}
           >
             <img src={FIFA} />
           </a>

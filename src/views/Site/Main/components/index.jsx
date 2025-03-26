@@ -1,4 +1,3 @@
-export { default as About } from "./About";
 export { default as Consoles } from "./Consoles";
 export { default as Franchises } from "./Franchises";
 export { default as History } from "./History";

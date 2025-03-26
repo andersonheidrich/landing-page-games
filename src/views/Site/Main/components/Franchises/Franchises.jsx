@@ -1,14 +1,14 @@
 import * as Style from "./Franchises.styles";
 
-import Pokemon from "../../../../../images/franchises/pokemon.png";
-import DragonQuest from "../../../../../images/franchises/dragonquest.png";
-import Civilization from "../../../../../images/franchises/civilization.png";
-import DOS from "../../../../../images/franchises/dos.png";
-import FM from "../../../../../images/franchises/fm.png";
-import FIFA from "../../../../../images/franchises/fifa.png";
-import DonkeyKong from "../../../../../images/franchises/donkeykong.png";
-import SuperMario from "../../../../../images/franchises/supermario.png";
-import WOW from "../../../../../images/franchises/wow.png";
+import Pokemon from "../../../../../images/games/pokemon.png";
+import DragonQuest from "../../../../../images/games/dragonquest.png";
+import Civilization from "../../../../../images/games/civilization.png";
+import DOS from "../../../../../images/games/dos.png";
+import FM from "../../../../../images/games/fm.png";
+import FIFA from "../../../../../images/games/fifa.png";
+import DonkeyKong from "../../../../../images/games/donkeykong.png";
+import SuperMario from "../../../../../images/games/supermario.png";
+import WOW from "../../../../../images/games/wow.png";
 
 const Franchises = () => {
   return (
@@ -38,7 +38,11 @@ const Franchises = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.footballmanager.com/" target="_blank">
+          <a
+            href="https://www.footballmanager.com/"
+            target="_blank"
+            style={{ backgroundColor: "white" }}
+          >
             <img src={FM} />
           </a>
         </div>
@@ -46,6 +50,7 @@ const Franchises = () => {
           <a
             href="https://www.ea.com/pt-br/games/ea-sports-fc/"
             target="_blank"
+            style={{ backgroundColor: "white" }}
           >
             <img src={FIFA} />
           </a>

@@ -21,8 +21,8 @@ export const Row = styled.div`
   }
 
   img {
-    width: 340px;
-    height: 340px;
+    width: 360px;
+    height: 360px;
     cursor: pointer;
   }
 `;

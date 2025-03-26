@@ -14,14 +14,15 @@ export const Container = styled.div`
 
 export const Row = styled.div`
   display: flex;
+  background-color: black;
 
   a {
     display: flex;
   }
 
   img {
-    width: 340px;
-    height: 340px;
+    width: 360px;
+    height: 360px;
     cursor: pointer;
   }
 `;

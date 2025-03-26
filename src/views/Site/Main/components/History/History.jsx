@@ -6,6 +6,12 @@ const History = () => {
       <h1 className="title">HISTÓRIA</h1>
       <Style.Content>
         <Style.Text>
+          Olá! Me chamo Anderson Heidrich e sou natural de Pelotas / RS.
+          Trabalho com desenvolvimento web desde dezembro de 2021 e decidi criar
+          essa landing page para compartilhar um pouco do meu gosto pessoal por
+          jogos eletrônicos.
+          <br />
+          <br />
           Tudo começou no início dos anos 1990, com meu primeiro console: um
           Dynavision 3! Pra ser sincero, não me lembro muito bem dos jogos. Logo
           após, veio o SNES (Super Nintendo), que me marcou muito com seus

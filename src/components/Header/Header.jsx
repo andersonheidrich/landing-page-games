@@ -26,9 +26,6 @@ const Header = () => {
           <a href="#most-played">
             <div className="menu-item">Mais jogados</div>
           </a>
-          <a href="#about-me">
-            <div className="menu-item">Quem sou?</div>
-          </a>
           <a href="#contact">
             <div className="menu-item">Contato</div>
           </a>
